@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fondo_aplicacion">#3F51B5</color>
+    <color name="item_text_color">#FFFFFF</color>
+    <color name="text_hint_color">#AFADAD</color>
+    <color name="fondo_reservas_dia">#D11D1D</color>
+    <color name="fordo_boton_add">#D11D1D</color>
+    <color name="divisor_lista_reservas">#040404</color>
+    <color name="negro">#040404</color>
+    <color name="Blanco">#FFFFFF</color>
+    <color name="gris">#E0E0E0</color>
+</resources>

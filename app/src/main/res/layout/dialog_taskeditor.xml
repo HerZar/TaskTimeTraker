@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/fondo_aplicacion">
+    <EditText
+        android:id="@+id/etTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_description"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/def_padding"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/text_hint_color"
+        android:background="@color/Blanco"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_marginLeft="@dimen/def_padding"
+            android:layout_marginRight="@dimen/def_padding"
+            android:id="@+id/btncancelar"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/def_padding"
+            android:layout_marginRight="@dimen/def_padding"
+            android:text="@string/ok"
+            android:id="@+id/btnaceptar"/>
+    </LinearLayout>
+</LinearLayout>
